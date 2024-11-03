@@ -1,6 +1,6 @@
 [build]
-  publish = "build"  # Ova putanja je gde se nalaze statički fajlovi vaše aplikacije
-  command = "npm run build"  # Komanda za build
+  command = "CI=false npm run build"
+  publish = "build"
 
 [[redirects]]
   from = "/*"
