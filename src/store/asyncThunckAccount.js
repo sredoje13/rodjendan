@@ -11,7 +11,7 @@ export const uploadImage=createAsyncThunk(
     });
 
     try {
-        const response = await axios.post('https://rodjnode.onrender.com/upload', formData, {
+        const response = await axios.post('http://localhost:5000/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
