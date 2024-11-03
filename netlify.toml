@@ -1,0 +1,8 @@
+[build]
+  publish = "build"  # Ova putanja je gde se nalaze statički fajlovi vaše aplikacije
+  command = "npm run build"  # Komanda za build
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.h1{
+color:#584611;
+text-align: center;
+font-size: 25px;
+font-family: "Imperial Script", cursive;
+
+}
+.body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-right: 0px;
+  background-image:url( './pexels-cup-of-couple-8014933.jpg');
+ background-repeat: repeat;
+ background-size: contain;
+ background-position: center;
+  height: 100vh; /* Visina aplikacije da bude 100% visine prozora */
+width:100vw
+}
